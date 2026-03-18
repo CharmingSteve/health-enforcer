@@ -17,8 +17,8 @@ from pyspark.sql import functions as F
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-SOURCE_PATH: str = "s3a://health-enforcer/apple-health/March-8-2026/export.xml"
-BRONZE_TABLE_PATH: str = "s3a://health-enforcer/delta/bronze/health_records"
+SOURCE_PATH: str = "/Volumes/workspace/default/apple-data-march-8-2026/export.xml"
+BRONZE_TABLE_PATH: str = "/Volumes/workspace/default/bronze_health_records"
 ROW_TAG: str = "Record"
 
 
